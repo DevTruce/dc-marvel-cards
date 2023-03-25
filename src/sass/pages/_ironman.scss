@@ -1,0 +1,10 @@
+.content-area--ironman {
+  background: linear-gradient(
+      100deg,
+      rgba($color-ironman-primary, 0.35) 0%,
+      rgba($color-ironman-tertiary, 0.5) 100%
+    ),
+    url(https://media3.giphy.com/media/8xomIW1DRelmo/giphy.gif?cid=ecf05e4758u649sxzi4kqtk0qhlflb4pc7aiywd560cm3tfe&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

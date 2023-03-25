@@ -104,6 +104,12 @@ body {
     .card__content--front--thor {
       border: 2px solid white;
       background: radial-gradient(circle, #62cdff 0%, #b80000 100%); }
+    .card__content--front--ironman {
+      border: 2px solid white;
+      background: radial-gradient(circle, #aa0505 0%, #fbca03 100%); }
+    .card__content--front--blackpanther {
+      border: 2px solid white;
+      background: radial-gradient(circle, #1a0554 0%, #c4a8ff 100%); }
     .card__content--back {
       background-color: green;
       position: absolute;
@@ -144,6 +150,12 @@ body {
       .card__content--back--thor {
         border: 2px solid white;
         background: radial-gradient(circle, #62cdff 0%, #b80000 100%); }
+      .card__content--back--ironman {
+        border: 2px solid white;
+        background: radial-gradient(circle, #aa0505 0%, #fbca03 100%); }
+      .card__content--back--blackpanther {
+        border: 2px solid white;
+        background: radial-gradient(circle, #1a0554 0%, #c4a8ff 100%); }
     .card__content--image {
       background-size: cover;
       height: 23rem;
@@ -170,6 +182,10 @@ body {
         background-image: linear-gradient(to bottom, #9bc063, #5a4862), url(https://media3.giphy.com/media/xFBnkMvpTM6m4/giphy.gif?cid=ecf05e4775v56x91nahl1et6ki6m69vxoqoiz5zvmmlcly3k&rid=giphy.gif&ct=g); }
       .card__content--image--thor {
         background-image: linear-gradient(to bottom, #62cdff, #b80000), url(https://media2.giphy.com/media/pL6mkjytFkTlekNMtM/giphy.gif?cid=ecf05e47sz8u42j0bsaxj26o3xrdhkyf1cc6jdw37wtgn4es&rid=giphy.gif&ct=g); }
+      .card__content--image--ironman {
+        background-image: linear-gradient(to bottom, #aa0505, #fbca03), url(https://media2.giphy.com/media/Yr0WpfGegdgcdqZXcL/giphy.gif?cid=ecf05e4758u649sxzi4kqtk0qhlflb4pc7aiywd560cm3tfe&rid=giphy.gif&ct=g); }
+      .card__content--image--blackpanther {
+        background-image: linear-gradient(to bottom, #1a0554, #c4a8ff), url(https://media3.giphy.com/media/ArSKRoxsUf8pa/giphy.gif?cid=ecf05e470c8jli403hvt55tsvkvep8clmgoytoofe3hzm8qi&rid=giphy.gif&ct=g); }
     .card__content__header-span {
       padding: 1rem 1.5rem;
       -webkit-box-decoration-break: clone;
@@ -194,6 +210,10 @@ body {
         background-image: linear-gradient(to right bottom, rgba(155, 192, 99, 0.5), rgba(90, 72, 98, 0.5)); }
       .card__content__header-span--thor {
         background-image: linear-gradient(to right bottom, rgba(98, 205, 255, 0.5), rgba(184, 0, 0, 0.5)); }
+      .card__content__header-span--ironman {
+        background-image: linear-gradient(to right bottom, rgba(170, 5, 5, 0.5), rgba(251, 202, 3, 0.5)); }
+      .card__content__header-span--blackpanther {
+        background-image: linear-gradient(to right bottom, rgba(26, 5, 84, 0.5), rgba(196, 168, 255, 0.5)); }
     .card__content--header {
       color: #f0eeed;
       font-size: 2.8rem;
@@ -368,6 +388,14 @@ body {
   .page-header--thor {
     background: #4c94f6;
     background: radial-gradient(circle, #62cdff 0%, #b80000 100%); }
+  .page-header--ironman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #aa0505 0%, #fbca03 100%); }
+  .page-header--blackpanther {
+    background: #4c94f6;
+    background: radial-gradient(circle, #1a0554 0%, #c4a8ff 100%); }
+    .page-header--blackpanther > a {
+      color: #f0eeed; }
 
 .content-area {
   overflow: hidden;
@@ -421,6 +449,14 @@ body {
   .page-footer--thor {
     background: #4c94f6;
     background: radial-gradient(circle, #62cdff 0%, #b80000 100%); }
+  .page-footer--ironman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #aa0505 0%, #fbca03 100%); }
+  .page-footer--blackpanther {
+    background: #4c94f6;
+    background: radial-gradient(circle, #1a0554 0%, #c4a8ff 100%); }
+    .page-footer--blackpanther > a {
+      color: #f0eeed; }
 
 .content-area--home {
   background: linear-gradient(100deg, rgba(76, 148, 246, 0.35) 0%, rgba(246, 219, 53, 0.5) 100%), url(https://media0.giphy.com/media/vuEBaIKZ7lY8M0Fx0D/giphy.gif?cid=ecf05e47ng6kt5zvo1h8ht4ly7m8pqwgzcwehqqal9sv7mkc&rid=giphy.gif&ct=g);
@@ -445,7 +481,7 @@ body {
     font-size: 1.6rem; } }
 
 .content-area--flash {
-  background: linear-gradient(100deg, rgba(76, 148, 246, 0.35) 0%, rgba(246, 219, 53, 0.5) 100%), url(https://media2.giphy.com/media/3ornjIhZGFWpbcGMAU/giphy.gif?cid=ecf05e47106y3wpdunwb1c8pxky1yv4871owl7dxts8555w1&rid=giphy.gif&ct=g);
+  background: linear-gradient(100deg, rgba(171, 0, 32, 0.35) 0%, rgba(250, 203, 51, 0.5) 100%), url(https://media2.giphy.com/media/3ornjIhZGFWpbcGMAU/giphy.gif?cid=ecf05e47106y3wpdunwb1c8pxky1yv4871owl7dxts8555w1&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -455,12 +491,12 @@ body {
   background-size: cover; }
 
 .content-area--joker {
-  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media2.giphy.com/media/aqSllPKAw0Y2k/giphy.gif?cid=ecf05e476oqvatj6rum85rwzbg9ns30mfqefan5a5yckmo00&rid=giphy.gif&ct=g);
+  background: linear-gradient(100deg, rgba(171, 93, 238, 0.35) 0%, rgba(197, 197, 197, 0.5) 100%), url(https://media2.giphy.com/media/aqSllPKAw0Y2k/giphy.gif?cid=ecf05e476oqvatj6rum85rwzbg9ns30mfqefan5a5yckmo00&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .content-area--wonderwoman {
-  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media2.giphy.com/media/26FPMoFGJlJQuwdzO/giphy.gif?cid=ecf05e47xmf204xqwxxgdm604goyg09e3brqekapexyahfxc&rid=giphy.gif&ct=g);
+  background: linear-gradient(100deg, rgba(246, 87, 109, 0.35) 0%, rgba(236, 196, 102, 0.5) 100%), url(https://media2.giphy.com/media/26FPMoFGJlJQuwdzO/giphy.gif?cid=ecf05e47xmf204xqwxxgdm604goyg09e3brqekapexyahfxc&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -475,16 +511,25 @@ body {
   background-size: cover; }
 
 .content-area--spiderman {
-  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media4.giphy.com/media/CIUUKp7vsPdy8/giphy.gif?cid=ecf05e478cp3jkrruhv3dtzbvei8490b9qfacpdg0fcb1j9y&rid=giphy.gif&ct=g);
+  background: linear-gradient(100deg, rgba(177, 19, 19, 0.35) 0%, rgba(68, 123, 190, 0.5) 100%), url(https://media4.giphy.com/media/CIUUKp7vsPdy8/giphy.gif?cid=ecf05e478cp3jkrruhv3dtzbvei8490b9qfacpdg0fcb1j9y&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .content-area--hulk {
-  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media0.giphy.com/media/aS8ypUweGOXMA/giphy.gif?cid=ecf05e4775v56x91nahl1et6ki6m69vxoqoiz5zvmmlcly3k&rid=giphy.gif&ct=g);
+  background: linear-gradient(100deg, rgba(155, 192, 99, 0.35) 0%, rgba(37, 51, 36, 0.5) 100%), url(https://media0.giphy.com/media/aS8ypUweGOXMA/giphy.gif?cid=ecf05e4775v56x91nahl1et6ki6m69vxoqoiz5zvmmlcly3k&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .content-area--thor {
   background: linear-gradient(100deg, rgba(98, 205, 255, 0.35) 0%, rgba(54, 49, 49, 0.5) 100%), url(https://media0.giphy.com/media/3ov9k1J6jahVhiev0Q/giphy.gif?cid=ecf05e47sz8u42j0bsaxj26o3xrdhkyf1cc6jdw37wtgn4es&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-area--ironman {
+  background: linear-gradient(100deg, rgba(170, 5, 5, 0.35) 0%, rgba(185, 125, 16, 0.5) 100%), url(https://media3.giphy.com/media/8xomIW1DRelmo/giphy.gif?cid=ecf05e4758u649sxzi4kqtk0qhlflb4pc7aiywd560cm3tfe&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-area--blackpanther {
+  background: linear-gradient(100deg, rgba(26, 5, 84, 0.35) 0%, rgba(12, 11, 19, 0.5) 100%), url(https://media4.giphy.com/media/o6FWop1Gbuyly/giphy.gif?cid=ecf05e470c8jli403hvt55tsvkvep8clmgoytoofe3hzm8qi&rid=giphy.gif&ct=g);
   background-size: cover; }

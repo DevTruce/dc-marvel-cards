@@ -112,6 +112,24 @@
           rgba($color-thor-secondary, 1) 100%
         );
       }
+
+      &--ironman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-ironman-primary, 1) 0%,
+          rgba($color-ironman-secondary, 1) 100%
+        );
+      }
+
+      &--blackpanther {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-blackpanther-primary, 1) 0%,
+          rgba($color-blackpanther-secondary, 1) 100%
+        );
+      }
     }
 
     &--back {
@@ -214,6 +232,24 @@
           rgba($color-thor-secondary, 1) 100%
         );
       }
+
+      &--ironman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-ironman-primary, 1) 0%,
+          rgba($color-ironman-secondary, 1) 100%
+        );
+      }
+
+      &--blackpanther {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-blackpanther-primary, 1) 0%,
+          rgba($color-blackpanther-secondary, 1) 100%
+        );
+      }
     }
 
     &--image {
@@ -312,6 +348,24 @@
           ),
           url(https://media2.giphy.com/media/pL6mkjytFkTlekNMtM/giphy.gif?cid=ecf05e47sz8u42j0bsaxj26o3xrdhkyf1cc6jdw37wtgn4es&rid=giphy.gif&ct=g);
       }
+
+      &--ironman {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-ironman-primary, 1),
+            rgba($color-ironman-secondary, 1)
+          ),
+          url(https://media2.giphy.com/media/Yr0WpfGegdgcdqZXcL/giphy.gif?cid=ecf05e4758u649sxzi4kqtk0qhlflb4pc7aiywd560cm3tfe&rid=giphy.gif&ct=g);
+      }
+
+      &--blackpanther {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-blackpanther-primary, 1),
+            rgba($color-blackpanther-secondary, 1)
+          ),
+          url(https://media3.giphy.com/media/ArSKRoxsUf8pa/giphy.gif?cid=ecf05e470c8jli403hvt55tsvkvep8clmgoytoofe3hzm8qi&rid=giphy.gif&ct=g);
+      }
     }
 
     &__header-span {
@@ -396,6 +450,22 @@
           to right bottom,
           rgba($color-thor-primary, 0.5),
           rgba($color-thor-secondary, 0.5)
+        );
+      }
+
+      &--ironman {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-ironman-primary, 0.5),
+          rgba($color-ironman-secondary, 0.5)
+        );
+      }
+
+      &--blackpanther {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-blackpanther-primary, 0.5),
+          rgba($color-blackpanther-secondary, 0.5)
         );
       }
     }

@@ -111,4 +111,26 @@
       rgba($color-thor-secondary, 1) 100%
     );
   }
+
+  &--ironman {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-ironman-primary, 1) 0%,
+      rgba($color-ironman-secondary, 1) 100%
+    );
+  }
+
+  &--blackpanther {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-blackpanther-primary, 1) 0%,
+      rgba($color-blackpanther-secondary, 1) 100%
+    );
+
+    & > a {
+      color: $color-text-light;
+    }
+  }
 }

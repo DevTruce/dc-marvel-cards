@@ -1,0 +1,9 @@
+.content-area--blackpanther {
+  background: linear-gradient(
+      100deg,
+      rgba($color-blackpanther-primary, 0.35) 0%,
+      rgba($color-blackpanther-tertiary, 0.5) 100%
+    ),
+    url(https://media4.giphy.com/media/o6FWop1Gbuyly/giphy.gif?cid=ecf05e470c8jli403hvt55tsvkvep8clmgoytoofe3hzm8qi&rid=giphy.gif&ct=g);
+  background-size: cover;
+}
