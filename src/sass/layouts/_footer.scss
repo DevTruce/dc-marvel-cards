@@ -47,6 +47,15 @@
     );
   }
 
+  &--wonderwoman {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-wonderwoman-tertiary, 1) 0%,
+      rgba($color-wonderwoman-primary, 1) 100%
+    );
+  }
+
   // MARVEL
   &--dp {
     background: radial-gradient(
