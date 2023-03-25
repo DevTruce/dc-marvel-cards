@@ -483,3 +483,8 @@ body {
   background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media0.giphy.com/media/aS8ypUweGOXMA/giphy.gif?cid=ecf05e4775v56x91nahl1et6ki6m69vxoqoiz5zvmmlcly3k&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
+
+.content-area--thor {
+  background: linear-gradient(100deg, rgba(98, 205, 255, 0.35) 0%, rgba(54, 49, 49, 0.5) 100%), url(https://media0.giphy.com/media/3ov9k1J6jahVhiev0Q/giphy.gif?cid=ecf05e47sz8u42j0bsaxj26o3xrdhkyf1cc6jdw37wtgn4es&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
