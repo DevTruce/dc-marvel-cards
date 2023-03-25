@@ -1,0 +1,10 @@
+.content-area--superman {
+  background: linear-gradient(
+      100deg,
+      rgba($color-superman-primary, 0.35) 0%,
+      rgba($color-superman-tertiary, 0.5) 100%
+    ),
+    url(https://media4.giphy.com/media/10bKPDUM5H7m7u/giphy.gif?cid=ecf05e47bl2axfblx33r4xy31759zzgte7rcg1v8aikmtvxd&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -76,6 +76,15 @@
           rgba($color-wonderwoman-tertiary, 1) 100%
         );
       }
+
+      &--superman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-superman-primary, 1) 0%,
+          rgba($color-superman-secondary, 1) 100%
+        );
+      }
     }
 
     &--back {
@@ -142,6 +151,15 @@
           rgba($color-wonderwoman-tertiary, 1) 100%
         );
       }
+
+      &--superman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-superman-primary, 1) 0%,
+          rgba($color-superman-secondary, 1) 100%
+        );
+      }
     }
 
     &--image {
@@ -204,6 +222,15 @@
           ),
           url(https://media4.giphy.com/media/Rf4abfgErrB9mSNOCf/giphy.gif?cid=ecf05e47xmf204xqwxxgdm604goyg09e3brqekapexyahfxc&rid=giphy.gif&ct=g);
       }
+
+      &--superman {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-superman-primary, 1),
+            rgba($color-superman-secondary, 1)
+          ),
+          url(https://media3.giphy.com/media/5BaJ6438Qp6RJQRRQn/giphy.gif?cid=ecf05e4722klwg2n2ju85akhkm53127oumukmaos59ivxo6u&rid=giphy.gif&ct=g);
+      }
     }
 
     &__header-span {
@@ -256,6 +283,14 @@
           to right bottom,
           rgba($color-wonderwoman-primary, 0.5),
           rgba($color-wonderwoman-secondary, 0.5)
+        );
+      }
+
+      &--superman {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-superman-primary, 0.5),
+          rgba($color-superman-secondary, 0.5)
         );
       }
     }

@@ -59,6 +59,15 @@
     );
   }
 
+  &--superman {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-superman-primary, 1) 0%,
+      rgba($color-superman-secondary, 1) 100%
+    );
+  }
+
   // MARVEL
   &--dp {
     background: radial-gradient(

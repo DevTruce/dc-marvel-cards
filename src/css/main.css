@@ -92,6 +92,9 @@ body {
     .card__content--front--wonderwoman {
       border: 2px solid white;
       background: radial-gradient(circle, #f6576d 0%, #ecc466 100%); }
+    .card__content--front--superman {
+      border: 2px solid white;
+      background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
     .card__content--back {
       background-color: green;
       position: absolute;
@@ -120,6 +123,9 @@ body {
       .card__content--back--wonderwoman {
         border: 2px solid white;
         background: radial-gradient(circle, #f6576d 0%, #ecc466 100%); }
+      .card__content--back--superman {
+        border: 2px solid white;
+        background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
     .card__content--image {
       background-size: cover;
       height: 23rem;
@@ -138,6 +144,8 @@ body {
         background-image: linear-gradient(to bottom, #242424, #505c7c), url(https://media1.giphy.com/media/a5viI92PAF89q/giphy.gif?cid=ecf05e478mzmvqu8qs0ccpuey7f1sodq515sbrtdbw300zc4&rid=giphy.gif&ct=g); }
       .card__content--image--wonderwoman {
         background-image: linear-gradient(to bottom, #f6576d, #ecc466), url(https://media4.giphy.com/media/Rf4abfgErrB9mSNOCf/giphy.gif?cid=ecf05e47xmf204xqwxxgdm604goyg09e3brqekapexyahfxc&rid=giphy.gif&ct=g); }
+      .card__content--image--superman {
+        background-image: linear-gradient(to bottom, #f11712, #0099f7), url(https://media3.giphy.com/media/5BaJ6438Qp6RJQRRQn/giphy.gif?cid=ecf05e4722klwg2n2ju85akhkm53127oumukmaos59ivxo6u&rid=giphy.gif&ct=g); }
     .card__content__header-span {
       padding: 1rem 1.5rem;
       -webkit-box-decoration-break: clone;
@@ -154,6 +162,8 @@ body {
         background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.5), rgba(253, 255, 0, 0.5)); }
       .card__content__header-span--wonderwoman {
         background-image: linear-gradient(to right bottom, rgba(246, 87, 109, 0.5), rgba(63, 108, 184, 0.5)); }
+      .card__content__header-span--superman {
+        background-image: linear-gradient(to right bottom, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5)); }
     .card__content--header {
       color: #f0eeed;
       font-size: 2.8rem;
@@ -312,6 +322,9 @@ body {
   .page-header--wonderwoman {
     background: #4c94f6;
     background: radial-gradient(circle, #ecc466 0%, #f6576d 100%); }
+  .page-header--superman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
   .page-header--dp {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-header--spiderman {
@@ -353,6 +366,9 @@ body {
   .page-footer--wonderwoman {
     background: #4c94f6;
     background: radial-gradient(circle, #ecc466 0%, #f6576d 100%); }
+  .page-footer--superman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
   .page-footer--dp {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-footer--spiderman {
@@ -397,6 +413,11 @@ body {
 
 .content-area--wonderwoman {
   background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media2.giphy.com/media/26FPMoFGJlJQuwdzO/giphy.gif?cid=ecf05e47xmf204xqwxxgdm604goyg09e3brqekapexyahfxc&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-area--superman {
+  background: linear-gradient(100deg, rgba(241, 23, 18, 0.35) 0%, rgba(255, 230, 58, 0.5) 100%), url(https://media4.giphy.com/media/10bKPDUM5H7m7u/giphy.gif?cid=ecf05e47bl2axfblx33r4xy31759zzgte7rcg1v8aikmtvxd&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
 
