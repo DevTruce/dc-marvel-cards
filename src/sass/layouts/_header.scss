@@ -102,4 +102,13 @@
       rgba($color-hulk-secondary, 1) 100%
     );
   }
+
+  &--thor {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-thor-primary, 1) 0%,
+      rgba($color-thor-secondary, 1) 100%
+    );
+  }
 }
