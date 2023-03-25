@@ -90,4 +90,13 @@
       rgba($color-spm-secondary, 1) 100%
     );
   }
+
+  &--hulk {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-hulk-primary, 1) 0%,
+      rgba($color-hulk-secondary, 1) 100%
+    );
+  }
 }

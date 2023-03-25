@@ -98,6 +98,9 @@ body {
     .card__content--front--aquaman {
       border: 2px solid white;
       background: radial-gradient(circle, #19a7ce 0%, #539165 100%); }
+    .card__content--front--hulk {
+      border: 2px solid white;
+      background: radial-gradient(circle, #9bc063 0%, #5a4862 100%); }
     .card__content--back {
       background-color: green;
       position: absolute;
@@ -132,6 +135,9 @@ body {
       .card__content--back--aquaman {
         border: 2px solid white;
         background: radial-gradient(circle, #19a7ce 0%, #539165 100%); }
+      .card__content--back--hulk {
+        border: 2px solid white;
+        background: radial-gradient(circle, #9bc063 0%, #5a4862 100%); }
     .card__content--image {
       background-size: cover;
       height: 23rem;
@@ -154,6 +160,8 @@ body {
         background-image: linear-gradient(to bottom, #f11712, #0099f7), url(https://media3.giphy.com/media/5BaJ6438Qp6RJQRRQn/giphy.gif?cid=ecf05e4722klwg2n2ju85akhkm53127oumukmaos59ivxo6u&rid=giphy.gif&ct=g); }
       .card__content--image--aquaman {
         background-image: linear-gradient(to bottom, #19a7ce, #539165), url(https://media1.giphy.com/media/V4X14bU1vlHfa/giphy.gif?cid=ecf05e47ti7iy65jb6zo6avc9qcxbwzyjf8rvi1ytw6vun2f&rid=giphy.gif&ct=g); }
+      .card__content--image--hulk {
+        background-image: linear-gradient(to bottom, #9bc063, #5a4862), url(https://media3.giphy.com/media/xFBnkMvpTM6m4/giphy.gif?cid=ecf05e4775v56x91nahl1et6ki6m69vxoqoiz5zvmmlcly3k&rid=giphy.gif&ct=g); }
     .card__content__header-span {
       padding: 1rem 1.5rem;
       -webkit-box-decoration-break: clone;
@@ -174,6 +182,8 @@ body {
         background-image: linear-gradient(to right bottom, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5)); }
       .card__content__header-span--aquaman {
         background-image: linear-gradient(to right bottom, rgba(25, 167, 206, 0.5), rgba(83, 145, 101, 0.5)); }
+      .card__content__header-span--hulk {
+        background-image: linear-gradient(to right bottom, rgba(155, 192, 99, 0.5), rgba(90, 72, 98, 0.5)); }
     .card__content--header {
       color: #f0eeed;
       font-size: 2.8rem;
@@ -342,6 +352,9 @@ body {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-header--spiderman {
     background: radial-gradient(circle, #b11313 0%, #2b3784 100%); }
+  .page-header--hulk {
+    background: #4c94f6;
+    background: radial-gradient(circle, #9bc063 0%, #5a4862 100%); }
 
 .content-area {
   overflow: hidden;
@@ -389,6 +402,9 @@ body {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-footer--spiderman {
     background: radial-gradient(circle, #b11313 0%, #2b3784 100%); }
+  .page-footer--hulk {
+    background: #4c94f6;
+    background: radial-gradient(circle, #9bc063 0%, #5a4862 100%); }
 
 .content-area--home {
   background: linear-gradient(100deg, rgba(76, 148, 246, 0.35) 0%, rgba(246, 219, 53, 0.5) 100%), url(https://media0.giphy.com/media/vuEBaIKZ7lY8M0Fx0D/giphy.gif?cid=ecf05e47ng6kt5zvo1h8ht4ly7m8pqwgzcwehqqal9sv7mkc&rid=giphy.gif&ct=g);
@@ -444,5 +460,10 @@ body {
 
 .content-area--spiderman {
   background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media4.giphy.com/media/CIUUKp7vsPdy8/giphy.gif?cid=ecf05e478cp3jkrruhv3dtzbvei8490b9qfacpdg0fcb1j9y&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-area--hulk {
+  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media0.giphy.com/media/aS8ypUweGOXMA/giphy.gif?cid=ecf05e4775v56x91nahl1et6ki6m69vxoqoiz5zvmmlcly3k&rid=giphy.gif&ct=g);
   background-repeat: no-repeat;
   background-size: cover; }
