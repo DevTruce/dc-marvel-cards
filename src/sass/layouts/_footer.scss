@@ -38,6 +38,15 @@
     );
   }
 
+  &--batman {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-batman-tertiary, 1) 0%,
+      rgba($color-batman-primary, 1) 100%
+    );
+  }
+
   // MARVEL
   &--dp {
     background: radial-gradient(

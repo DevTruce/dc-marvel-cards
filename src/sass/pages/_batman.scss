@@ -1,0 +1,10 @@
+.content-area--batman {
+  background: linear-gradient(
+      100deg,
+      rgba($color-batman-primary, 0.35) 0%,
+      rgba($color-batman-tertiary, 0.5) 100%
+    ),
+    url(https://media1.giphy.com/media/l396BoOTIFem9xqQU/giphy.gif?cid=ecf05e478mzmvqu8qs0ccpuey7f1sodq515sbrtdbw300zc4&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

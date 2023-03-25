@@ -58,6 +58,15 @@
           rgba($color-flash-tertiary, 1) 100%
         );
       }
+
+      &--batman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-batman-primary, 1) 0%,
+          rgba($color-batman-tertiary, 1) 100%
+        );
+      }
     }
 
     &--back {
@@ -106,6 +115,15 @@
           rgba($color-flash-tertiary, 1) 100%
         );
       }
+
+      &--batman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-batman-primary, 1) 0%,
+          rgba($color-batman-tertiary, 1) 100%
+        );
+      }
     }
 
     &--image {
@@ -150,6 +168,15 @@
           ),
           url(https://static.dc.com/dc/files/default_images/GalleryChar_1900x900_FL23_6-7_52ab8f8d847397.15032461.jpg);
       }
+
+      &--batman {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-batman-primary, 1),
+            rgba($color-batman-tertiary, 1)
+          ),
+          url(https://media1.giphy.com/media/a5viI92PAF89q/giphy.gif?cid=ecf05e478mzmvqu8qs0ccpuey7f1sodq515sbrtdbw300zc4&rid=giphy.gif&ct=g);
+      }
     }
 
     &__header-span {
@@ -186,6 +213,14 @@
           to right bottom,
           rgba($color-flash-primary, 0.5),
           rgba($color-flash-secondary, 0.5)
+        );
+      }
+
+      &--batman {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-batman-primary, 0.5),
+          rgba($color-batman-secondary, 0.5)
         );
       }
     }

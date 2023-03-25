@@ -86,6 +86,9 @@ body {
     .card__content--front--flash {
       border: 2px solid white;
       background: radial-gradient(circle, #ab0020 0%, #fffc7b 100%); }
+    .card__content--front--batman {
+      border: 2px solid white;
+      background: radial-gradient(circle, #242424 0%, #505c7c 100%); }
     .card__content--back {
       background-color: green;
       position: absolute;
@@ -108,6 +111,9 @@ body {
       .card__content--back--flash {
         border: 2px solid white;
         background: radial-gradient(circle, #ab0020 0%, #fffc7b 100%); }
+      .card__content--back--batman {
+        border: 2px solid white;
+        background: radial-gradient(circle, #242424 0%, #505c7c 100%); }
     .card__content--image {
       background-size: cover;
       height: 23rem;
@@ -122,6 +128,8 @@ body {
         background-image: linear-gradient(to bottom, #1ddd33, #ab5dee), url(https://www.looper.com/img/gallery/15-times-comics-tried-ripping-off-the-joker-character/l-intro-1650649164.jpg); }
       .card__content--image--flash {
         background-image: linear-gradient(to bottom, #facb33, #ab0020), url(https://static.dc.com/dc/files/default_images/GalleryChar_1900x900_FL23_6-7_52ab8f8d847397.15032461.jpg); }
+      .card__content--image--batman {
+        background-image: linear-gradient(to bottom, #242424, #505c7c), url(https://media1.giphy.com/media/a5viI92PAF89q/giphy.gif?cid=ecf05e478mzmvqu8qs0ccpuey7f1sodq515sbrtdbw300zc4&rid=giphy.gif&ct=g); }
     .card__content__header-span {
       padding: 1rem 1.5rem;
       -webkit-box-decoration-break: clone;
@@ -134,6 +142,8 @@ body {
         background-image: linear-gradient(to right bottom, rgba(171, 93, 238, 0.5), rgba(29, 221, 51, 0.5)); }
       .card__content__header-span--flash {
         background-image: linear-gradient(to right bottom, rgba(171, 0, 32, 0.5), rgba(250, 203, 51, 0.5)); }
+      .card__content__header-span--batman {
+        background-image: linear-gradient(to right bottom, rgba(36, 36, 36, 0.5), rgba(253, 255, 0, 0.5)); }
     .card__content--header {
       color: #f0eeed;
       font-size: 2.8rem;
@@ -286,6 +296,9 @@ body {
   .page-header--flash {
     background: #4c94f6;
     background: radial-gradient(circle, #ab0020 0%, #facb33 100%); }
+  .page-header--batman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #505c7c 0%, #242424 100%); }
   .page-header--dp {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-header--spiderman {
@@ -321,6 +334,9 @@ body {
   .page-footer--flash {
     background: #4c94f6;
     background: radial-gradient(circle, #ab0020 0%, #facb33 100%); }
+  .page-footer--batman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #505c7c 0%, #242424 100%); }
   .page-footer--dp {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-footer--spiderman {
