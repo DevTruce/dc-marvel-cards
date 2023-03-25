@@ -95,6 +95,9 @@ body {
     .card__content--front--superman {
       border: 2px solid white;
       background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
+    .card__content--front--aquaman {
+      border: 2px solid white;
+      background: radial-gradient(circle, #19a7ce 0%, #539165 100%); }
     .card__content--back {
       background-color: green;
       position: absolute;
@@ -126,6 +129,9 @@ body {
       .card__content--back--superman {
         border: 2px solid white;
         background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
+      .card__content--back--aquaman {
+        border: 2px solid white;
+        background: radial-gradient(circle, #19a7ce 0%, #539165 100%); }
     .card__content--image {
       background-size: cover;
       height: 23rem;
@@ -146,6 +152,8 @@ body {
         background-image: linear-gradient(to bottom, #f6576d, #ecc466), url(https://media4.giphy.com/media/Rf4abfgErrB9mSNOCf/giphy.gif?cid=ecf05e47xmf204xqwxxgdm604goyg09e3brqekapexyahfxc&rid=giphy.gif&ct=g); }
       .card__content--image--superman {
         background-image: linear-gradient(to bottom, #f11712, #0099f7), url(https://media3.giphy.com/media/5BaJ6438Qp6RJQRRQn/giphy.gif?cid=ecf05e4722klwg2n2ju85akhkm53127oumukmaos59ivxo6u&rid=giphy.gif&ct=g); }
+      .card__content--image--aquaman {
+        background-image: linear-gradient(to bottom, #19a7ce, #539165), url(https://media1.giphy.com/media/V4X14bU1vlHfa/giphy.gif?cid=ecf05e47ti7iy65jb6zo6avc9qcxbwzyjf8rvi1ytw6vun2f&rid=giphy.gif&ct=g); }
     .card__content__header-span {
       padding: 1rem 1.5rem;
       -webkit-box-decoration-break: clone;
@@ -164,6 +172,8 @@ body {
         background-image: linear-gradient(to right bottom, rgba(246, 87, 109, 0.5), rgba(63, 108, 184, 0.5)); }
       .card__content__header-span--superman {
         background-image: linear-gradient(to right bottom, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5)); }
+      .card__content__header-span--aquaman {
+        background-image: linear-gradient(to right bottom, rgba(25, 167, 206, 0.5), rgba(83, 145, 101, 0.5)); }
     .card__content--header {
       color: #f0eeed;
       font-size: 2.8rem;
@@ -325,6 +335,9 @@ body {
   .page-header--superman {
     background: #4c94f6;
     background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
+  .page-header--aquaman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #19a7ce 0%, #539165 100%); }
   .page-header--dp {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-header--spiderman {
@@ -369,6 +382,9 @@ body {
   .page-footer--superman {
     background: #4c94f6;
     background: radial-gradient(circle, #f11712 0%, #0099f7 100%); }
+  .page-footer--aquaman {
+    background: #4c94f6;
+    background: radial-gradient(circle, #19a7ce 0%, #539165 100%); }
   .page-footer--dp {
     background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
   .page-footer--spiderman {
