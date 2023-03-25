@@ -1,0 +1,119 @@
+.hero-icon {
+  margin: 2rem 0;
+  border-radius: 50%;
+  border: 1px solid $color-secondary-light;
+  width: 7rem;
+  height: 7rem;
+  clip-path: circle(50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 500ms ease;
+  box-shadow: rgba($color-text-dark, 0.25) 0px 54px 55px,
+    rgba($color-text-dark, 0.12) 0px -12px 30px,
+    rgba($color-text-dark, 0.12) 0px 4px 6px,
+    rgba($color-text-dark, 0.17) 0px 12px 13px,
+    rgba($color-text-dark, 0.09) 0px -3px 5px;
+
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  &--1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/ZSvAC5c9RkW4g/giphy.gif?cid=ecf05e47ljtbzdarn1h5v20tz0b91dcu42kwccvrjsh7khlq&rid=giphy.gif&ct=g);
+  }
+  &--2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media2.giphy.com/media/CUEsWj7R9ZC0w/giphy.gif?cid=ecf05e47hj4q5pwckqbu1hjuqv7ksnzi6wn1wbcsi7d3tyzt&rid=giphy.gif&ct=g);
+  }
+  &--3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/3YsEPo1u3C8dW/giphy.gif?cid=ecf05e479n6eqt2x1yn6ptgrywsgjsezd026knvwhal9g95n&rid=giphy.gif&ct=g;);
+  }
+  &--4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media0.giphy.com/media/Rf4abfgErrB9mSNOCf/giphy.gif?cid=ecf05e47utcokonpc4a0h15fm0q98k413ohflotwi949c8ur&rid=giphy.gif&ct=g);
+  }
+  &--5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media2.giphy.com/media/a3l6SuG6Njlio/giphy.gif?cid=ecf05e475itzittzj0ci2qowobaf0fhwh4563trhhvdjfq8p&rid=giphy.gif&ct=g);
+  }
+  &--6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/V4X14bU1vlHfa/giphy.gif?cid=ecf05e478dmfifpdjkx8t8ot9xrajwi0tesmn8ovpx9brlg2&rid=giphy.gif&ct=g);
+  }
+  &--7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/3oKIPBcy65ZKpvFWY8/giphy.gif?cid=ecf05e47zfdmajx5q1l6uki7jpt9v6ulx8tki9bcnxim1p9h&rid=giphy.gif&ct=g);
+  }
+  &--8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/xT9Igrz9GGT6IhpEDC/giphy.gif?cid=ecf05e4712au01lszbotzbmyy7fcpg7ls1ucdmb5zxwme14e&rid=giphy.gif&ct=g);
+  }
+  &--9 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media3.giphy.com/media/1Nclw5CJ3N77G/giphy.gif?cid=ecf05e47zlqtd9y3levaad18w3bputsqui4grdfy2bapoctg&rid=giphy.gif&ct=g);
+  }
+  &--10 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media0.giphy.com/media/hT1mtXl54Acx3yR1XW/giphy.gif?cid=ecf05e471qv9fdv7w6hj3cwelf2czh6bz8akamexo9r3mnkd&rid=giphy.gif&ct=g);
+  }
+  &--11 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media3.giphy.com/media/OPOIcmwa6Ew2A/giphy.gif?cid=ecf05e47ir5iy37abpv2ll47mgcqk8t6231ku0lon0zre389&rid=giphy.gif&ct=g);
+  }
+  &--12 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/3o7WIIavqDVMXtkCBy/giphy.gif?cid=ecf05e47p3kfn3u3cu5huolr6x3kxa8rcxla0qcf85jy6ubx&rid=giphy.gif&ct=g);
+  }
+
+  &__caption {
+    transform: translateY(75%);
+    opacity: 0;
+    color: $color-secondary-light;
+    text-transform: uppercase;
+    font-size: $small-font;
+  }
+
+  &:hover &__caption {
+    animation: forwards;
+    animation-name: slideUp;
+    animation-duration: 2s;
+    opacity: 1;
+  }
+
+  &:hover {
+    transform: translateY(-1rem);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}

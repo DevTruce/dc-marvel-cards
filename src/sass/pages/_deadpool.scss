@@ -1,0 +1,10 @@
+.content-area--deadpool {
+  background: linear-gradient(
+      100deg,
+      rgba($color-dp-primary, 0.35) 0%,
+      rgba($color-dp-tertiary, 0.5) 100%
+    ),
+    url(https://media3.giphy.com/media/gAkrGkzMCdOLu/giphy.gif?cid=ecf05e47p11jvs6m2axcx4k5424o40zkwsn5fku6rrtossuf&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

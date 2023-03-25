@@ -1,0 +1,10 @@
+.content-area--spiderman {
+  background: linear-gradient(
+      100deg,
+      rgba($color-dp-primary, 0.35) 0%,
+      rgba($color-dp-tertiary, 0.5) 100%
+    ),
+    url(https://media4.giphy.com/media/CIUUKp7vsPdy8/giphy.gif?cid=ecf05e478cp3jkrruhv3dtzbvei8490b9qfacpdg0fcb1j9y&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

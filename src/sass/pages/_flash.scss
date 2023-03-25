@@ -1,0 +1,10 @@
+.content-area--flash {
+  background: linear-gradient(
+      100deg,
+      rgba($color-primary-light, 0.35) 0%,
+      rgba($color-secondary-light, 0.5) 100%
+    ),
+    url(https://media2.giphy.com/media/3ornjIhZGFWpbcGMAU/giphy.gif?cid=ecf05e47106y3wpdunwb1c8pxky1yv4871owl7dxts8555w1&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,23 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/animations";
+
+@import "components/links";
+@import "components/card";
+@import "components/hero-icon";
+
+@import "layouts/header";
+@import "layouts/content-area";
+@import "layouts/footer";
+
+@import "pages/home";
+// dc
+@import "pages/flash";
+// marvel
+@import "pages/deadpool";
+@import "pages/spiderman";

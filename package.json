@@ -1,0 +1,19 @@
+{
+  "name": "dc-marvel-cards",
+  "version": "1.0.0",
+  "description": "character information cards for dc and marvel",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/sass/main.scss src/css/main.css -w"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "dc",
+    "marvel",
+    "cards"
+  ],
+  "author": "Truce R",
+  "license": "MIT"
+}
