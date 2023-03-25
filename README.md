@@ -70,10 +70,7 @@ Animated DC & Marvel character profile cards. The home page contains a list of d
 Once the user selects a character they will be redirected to that characters "profile page"
 this page contains their character card that displays some very basic and minor information
 regarding the character, When this card is hovered it will flip onto the backside of the card
-which contains some popular quotes from that character. The project is not completed! I have
-only completed flash, spiderman, joker & deadpool all of the other characters are not currently
-set up but they will be in the future, I also plan to add some more features to each card.
-Overall this was a fun project to work on and I just created it for fun.
+which contains some popular quotes from that character.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
