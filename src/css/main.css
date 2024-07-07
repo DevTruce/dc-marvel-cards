@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #18122b;
+  display: flex;
+  flex-direction: column; }
+
+a,
+a:link {
+  text-decoration: none; }
+
+body {
+  font-family: "Comic Neue";
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1.5rem; }
+
+@keyframes hoverGrow {
+  0% {
+    transform: scale(0.9); }
+  70% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(0.9); } }
+
+@keyframes slideUp {
+  100% {
+    transform: translateY(0); } }
+
+.links,
+.link:link {
+  color: #f0eeed;
+  text-decoration: none;
+  font-weight: 700;
+  color: #18122b;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+  font-size: 1.2rem; }
+  .links:hover,
+  .link:link:hover {
+    color: #f6db35;
+    animation-name: hoverGrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.card {
+  -mox-perspective: 150rem;
+  perspective: 150rem;
+  position: relative;
+  height: 70vh;
+  width: 100%; }
+  .card__content {
+    height: 70vh;
+    color: #f0eeed;
+    max-width: 35rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: transform 800ms ease;
+    overflow: hidden; }
+    .card__content--front--dp {
+      border: 2px solid white;
+      background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
+    .card__content--front--spiderman {
+      border: 2px solid white;
+      background: radial-gradient(circle, #b11313 0%, #2b3784 100%); }
+    .card__content--front--joker {
+      border: 2px solid white;
+      background: radial-gradient(circle, #ab5dee 0%, #1ddd33 100%); }
+    .card__content--front--flash {
+      border: 2px solid white;
+      background: radial-gradient(circle, #ab0020 0%, #fffc7b 100%); }
+    .card__content--back {
+      background-color: green;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      .card__content--back--dp {
+        border: 2px solid white;
+        background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
+      .card__content--back--spiderman {
+        border: 2px solid white;
+        background: radial-gradient(circle, #b11313 0%, #2b3784 100%); }
+      .card__content--back--joker {
+        border: 2px solid white;
+        background: radial-gradient(circle, #1ddd33 0%, #ab5dee 100%); }
+      .card__content--back--flash {
+        border: 2px solid white;
+        background: radial-gradient(circle, #ab0020 0%, #fffc7b 100%); }
+    .card__content--image {
+      background-size: cover;
+      height: 23rem;
+      background-blend-mode: color;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+      .card__content--image--dp {
+        background-image: linear-gradient(to bottom, #8b2323, #171717), url(https://www.barnesandnoble.com/blog/wp-content/uploads/2018/05/deadpool.jpg); }
+      .card__content--image--spiderman {
+        background-image: linear-gradient(to bottom, #b11313, #447bbe), url(https://i.guim.co.uk/img/media/892fa5c71f29ce088247397726f32ca83b8231d0/79_0_3386_2031/master/3386.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=b087998b9e2006c0826f07750230af84); }
+      .card__content--image--joker {
+        background-image: linear-gradient(to bottom, #1ddd33, #ab5dee), url(https://www.looper.com/img/gallery/15-times-comics-tried-ripping-off-the-joker-character/l-intro-1650649164.jpg); }
+      .card__content--image--flash {
+        background-image: linear-gradient(to bottom, #facb33, #ab0020), url(https://static.dc.com/dc/files/default_images/GalleryChar_1900x900_FL23_6-7_52ab8f8d847397.15032461.jpg); }
+    .card__content__header-span {
+      padding: 1rem 1.5rem;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone; }
+      .card__content__header-span--dp {
+        background-image: linear-gradient(to right bottom, rgba(139, 35, 35, 0.5), rgba(23, 23, 23, 0.5)); }
+      .card__content__header-span--spiderman {
+        background-image: linear-gradient(to right bottom, rgba(177, 19, 19, 0.5), rgba(68, 123, 190, 0.5)); }
+      .card__content__header-span--joker {
+        background-image: linear-gradient(to right bottom, rgba(171, 93, 238, 0.5), rgba(29, 221, 51, 0.5)); }
+      .card__content__header-span--flash {
+        background-image: linear-gradient(to right bottom, rgba(171, 0, 32, 0.5), rgba(250, 203, 51, 0.5)); }
+    .card__content--header {
+      color: #f0eeed;
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: absolute;
+      right: 5rem;
+      text-align: right;
+      top: 12rem;
+      width: 50%; }
+    .card__content--title {
+      margin-top: 2rem;
+      font-size: 3rem;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto; }
+    .card__content--text {
+      line-height: 2rem;
+      margin: 2rem 0 3rem 0;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto; }
+  .card:hover .card__content--front {
+    transform: rotateY(-180deg); }
+  .card:hover .card__content--back {
+    transform: rotateY(0); }
+
+.quotes {
+  width: 75%;
+  padding: 0 2rem; }
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column; }
+  .card-box:not(:last-child) {
+    margin: 0 0 2rem 0; } }
+
+.hero-icon {
+  margin: 2rem 0;
+  border-radius: 50%;
+  border: 1px solid #f6db35;
+  width: 7rem;
+  height: 7rem;
+  clip-path: circle(50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 500ms ease;
+  box-shadow: rgba(24, 18, 43, 0.25) 0px 54px 55px, rgba(24, 18, 43, 0.12) 0px -12px 30px, rgba(24, 18, 43, 0.12) 0px 4px 6px, rgba(24, 18, 43, 0.17) 0px 12px 13px, rgba(24, 18, 43, 0.09) 0px -3px 5px; }
+  .hero-icon:not(:last-child) {
+    margin-right: 2rem; }
+  .hero-icon--1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/ZSvAC5c9RkW4g/giphy.gif?cid=ecf05e47ljtbzdarn1h5v20tz0b91dcu42kwccvrjsh7khlq&rid=giphy.gif&ct=g); }
+  .hero-icon--2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media2.giphy.com/media/CUEsWj7R9ZC0w/giphy.gif?cid=ecf05e47hj4q5pwckqbu1hjuqv7ksnzi6wn1wbcsi7d3tyzt&rid=giphy.gif&ct=g); }
+  .hero-icon--3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/3YsEPo1u3C8dW/giphy.gif?cid=ecf05e479n6eqt2x1yn6ptgrywsgjsezd026knvwhal9g95n&rid=giphy.gif&ct=g;); }
+  .hero-icon--4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media0.giphy.com/media/Rf4abfgErrB9mSNOCf/giphy.gif?cid=ecf05e47utcokonpc4a0h15fm0q98k413ohflotwi949c8ur&rid=giphy.gif&ct=g); }
+  .hero-icon--5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media2.giphy.com/media/a3l6SuG6Njlio/giphy.gif?cid=ecf05e475itzittzj0ci2qowobaf0fhwh4563trhhvdjfq8p&rid=giphy.gif&ct=g); }
+  .hero-icon--6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/V4X14bU1vlHfa/giphy.gif?cid=ecf05e478dmfifpdjkx8t8ot9xrajwi0tesmn8ovpx9brlg2&rid=giphy.gif&ct=g); }
+  .hero-icon--7 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/3oKIPBcy65ZKpvFWY8/giphy.gif?cid=ecf05e47zfdmajx5q1l6uki7jpt9v6ulx8tki9bcnxim1p9h&rid=giphy.gif&ct=g); }
+  .hero-icon--8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/xT9Igrz9GGT6IhpEDC/giphy.gif?cid=ecf05e4712au01lszbotzbmyy7fcpg7ls1ucdmb5zxwme14e&rid=giphy.gif&ct=g); }
+  .hero-icon--9 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media3.giphy.com/media/1Nclw5CJ3N77G/giphy.gif?cid=ecf05e47zlqtd9y3levaad18w3bputsqui4grdfy2bapoctg&rid=giphy.gif&ct=g); }
+  .hero-icon--10 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media0.giphy.com/media/hT1mtXl54Acx3yR1XW/giphy.gif?cid=ecf05e471qv9fdv7w6hj3cwelf2czh6bz8akamexo9r3mnkd&rid=giphy.gif&ct=g); }
+  .hero-icon--11 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media3.giphy.com/media/OPOIcmwa6Ew2A/giphy.gif?cid=ecf05e47ir5iy37abpv2ll47mgcqk8t6231ku0lon0zre389&rid=giphy.gif&ct=g); }
+  .hero-icon--12 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/3o7WIIavqDVMXtkCBy/giphy.gif?cid=ecf05e47p3kfn3u3cu5huolr6x3kxa8rcxla0qcf85jy6ubx&rid=giphy.gif&ct=g); }
+  .hero-icon__caption {
+    transform: translateY(75%);
+    opacity: 0;
+    color: #f6db35;
+    text-transform: uppercase;
+    font-size: 1.2rem; }
+  .hero-icon:hover .hero-icon__caption {
+    animation: forwards;
+    animation-name: slideUp;
+    animation-duration: 2s;
+    opacity: 1; }
+  .hero-icon:hover {
+    transform: translateY(-1rem); }
+  .hero-icon:active {
+    transform: translateY(0); }
+
+.page-header {
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  height: 10vh;
+  text-align: center;
+  border-radius: 0.3rem 0.3rem 0 0;
+  background: radial-gradient(circle, #f6db35 0%, #4c94f6 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .page-header__heading {
+    color: #f0eeed;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase; }
+  .page-header--joker {
+    background: #4c94f6;
+    background: radial-gradient(circle, #ab5dee 0%, #1ddd33 100%); }
+  .page-header--flash {
+    background: #4c94f6;
+    background: radial-gradient(circle, #ab0020 0%, #facb33 100%); }
+  .page-header--dp {
+    background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
+  .page-header--spiderman {
+    background: radial-gradient(circle, #b11313 0%, #2b3784 100%); }
+
+.content-area {
+  overflow: hidden;
+  min-height: 75vh;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.page-footer {
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  height: 10vh;
+  border-radius: 0 0 0.3rem 0.3rem;
+  text-align: center;
+  background: #4c94f6;
+  background: radial-gradient(circle, #f6db35 0%, #4c94f6 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .page-footer__text {
+    font-weight: 700; }
+  .page-footer--joker {
+    background: #4c94f6;
+    background: radial-gradient(circle, #ab5dee 0%, #1ddd33 100%); }
+  .page-footer--flash {
+    background: #4c94f6;
+    background: radial-gradient(circle, #ab0020 0%, #facb33 100%); }
+  .page-footer--dp {
+    background: radial-gradient(circle, #8b2323 0%, #171717 100%); }
+  .page-footer--spiderman {
+    background: radial-gradient(circle, #b11313 0%, #2b3784 100%); }
+
+.content-area--home {
+  background: linear-gradient(100deg, rgba(76, 148, 246, 0.35) 0%, rgba(246, 219, 53, 0.5) 100%), url(https://media0.giphy.com/media/vuEBaIKZ7lY8M0Fx0D/giphy.gif?cid=ecf05e47ng6kt5zvo1h8ht4ly7m8pqwgzcwehqqal9sv7mkc&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media (max-width: 587px) {
+  .row {
+    flex-direction: column; }
+  .hero-icon:not(:last-child) {
+    margin-right: 0; }
+  .page-header__heading {
+    font-size: 2rem; } }
+
+@media (max-width: 407px) {
+  .page-header__heading {
+    font-size: 1.6rem; } }
+
+.content-area--flash {
+  background: linear-gradient(100deg, rgba(76, 148, 246, 0.35) 0%, rgba(246, 219, 53, 0.5) 100%), url(https://media2.giphy.com/media/3ornjIhZGFWpbcGMAU/giphy.gif?cid=ecf05e47106y3wpdunwb1c8pxky1yv4871owl7dxts8555w1&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-area--deadpool {
+  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media3.giphy.com/media/gAkrGkzMCdOLu/giphy.gif?cid=ecf05e47p11jvs6m2axcx4k5424o40zkwsn5fku6rrtossuf&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content-area--spiderman {
+  background: linear-gradient(100deg, rgba(139, 35, 35, 0.35) 0%, rgba(41, 41, 41, 0.5) 100%), url(https://media4.giphy.com/media/CIUUKp7vsPdy8/giphy.gif?cid=ecf05e478cp3jkrruhv3dtzbvei8490b9qfacpdg0fcb1j9y&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover; }

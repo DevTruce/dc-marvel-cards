@@ -1,0 +1,60 @@
+.page-header {
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  height: 10vh;
+  text-align: center;
+  border-radius: 0.3rem 0.3rem 0 0;
+  background: radial-gradient(
+    circle,
+    rgba($color-secondary-light, 1) 0%,
+    rgba($color-primary-light, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__heading {
+    color: $color-text-light;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  // DC
+  &--joker {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-joker-primary, 1) 0%,
+      rgba($color-joker-secondary, 1) 100%
+    );
+  }
+
+  &--flash {
+    background: $color-primary-light;
+    background: radial-gradient(
+      circle,
+      rgba($color-flash-primary, 1) 0%,
+      rgba($color-flash-secondary, 1) 100%
+    );
+  }
+
+  // MARVEL
+  &--dp {
+    background: radial-gradient(
+      circle,
+      rgba($color-dp-primary, 1) 0%,
+      rgba($color-dp-secondary, 1) 100%
+    );
+  }
+
+  &--spiderman {
+    background: radial-gradient(
+      circle,
+      rgba($color-spm-primary, 1) 0%,
+      rgba($color-spm-secondary, 1) 100%
+    );
+  }
+}

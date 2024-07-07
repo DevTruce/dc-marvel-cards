@@ -1,0 +1,38 @@
+.content-area--home {
+  background: linear-gradient(
+      100deg,
+      rgba($color-primary-light, 0.35) 0%,
+      rgba($color-secondary-light, 0.5) 100%
+    ),
+    url(https://media0.giphy.com/media/vuEBaIKZ7lY8M0Fx0D/giphy.gif?cid=ecf05e47ng6kt5zvo1h8ht4ly7m8pqwgzcwehqqal9sv7mkc&rid=giphy.gif&ct=g);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 587px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .hero-icon {
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+
+  .page-header__heading {
+    font-size: $medium-font;
+  }
+}
+
+@media (max-width: 407px) {
+  .page-header__heading {
+    font-size: $default-font;
+  }
+}

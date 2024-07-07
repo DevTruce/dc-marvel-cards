@@ -1,0 +1,247 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// CARD FUNCTIONALLITY AND FRONT STYLES
+.card {
+  -mox-perspective: 150rem;
+  perspective: 150rem;
+  position: relative;
+  height: 70vh;
+  width: 100%;
+
+  &__content {
+    height: 70vh;
+    color: $color-text-light;
+    max-width: 35rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: transform 800ms ease;
+    overflow: hidden;
+
+    &--front {
+      &--dp {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-dp-primary, 1) 0%,
+          rgba($color-dp-secondary, 1) 100%
+        );
+      }
+
+      &--spiderman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-spm-primary, 1) 0%,
+          rgba($color-spm-secondary, 1) 100%
+        );
+      }
+
+      &--joker {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-joker-primary, 1) 0%,
+          rgba($color-joker-secondary, 1) 100%
+        );
+      }
+
+      &--flash {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-flash-primary, 1) 0%,
+          rgba($color-flash-tertiary, 1) 100%
+        );
+      }
+    }
+
+    &--back {
+      background-color: green;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+
+      &--dp {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-dp-primary, 1) 0%,
+          rgba($color-dp-secondary, 1) 100%
+        );
+      }
+
+      &--spiderman {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-spm-primary, 1) 0%,
+          rgba($color-spm-secondary, 1) 100%
+        );
+      }
+
+      &--joker {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-joker-secondary, 1) 0%,
+          rgba($color-joker-primary, 1) 100%
+        );
+      }
+
+      &--flash {
+        border: 2px solid white;
+        background: radial-gradient(
+          circle,
+          rgba($color-flash-primary, 1) 0%,
+          rgba($color-flash-tertiary, 1) 100%
+        );
+      }
+    }
+
+    &--image {
+      background-size: cover;
+      height: 23rem;
+      background-blend-mode: color;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+      &--dp {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-dp-primary, 1),
+            rgba($color-dp-secondary, 1)
+          ),
+          url(https://www.barnesandnoble.com/blog/wp-content/uploads/2018/05/deadpool.jpg);
+      }
+
+      &--spiderman {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-spm-primary, 1),
+            rgba($color-spm-tertiary, 1)
+          ),
+          url(https://i.guim.co.uk/img/media/892fa5c71f29ce088247397726f32ca83b8231d0/79_0_3386_2031/master/3386.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=b087998b9e2006c0826f07750230af84);
+      }
+
+      &--joker {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-joker-secondary, 1),
+            rgba($color-joker-primary, 1)
+          ),
+          url(https://www.looper.com/img/gallery/15-times-comics-tried-ripping-off-the-joker-character/l-intro-1650649164.jpg);
+      }
+
+      &--flash {
+        background-image: linear-gradient(
+            to bottom,
+            rgba($color-flash-secondary, 1),
+            rgba($color-flash-primary, 1)
+          ),
+          url(https://static.dc.com/dc/files/default_images/GalleryChar_1900x900_FL23_6-7_52ab8f8d847397.15032461.jpg);
+      }
+    }
+
+    &__header-span {
+      padding: 1rem 1.5rem;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
+
+      &--dp {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-dp-primary, 0.5),
+          rgba($color-dp-secondary, 0.5)
+        );
+      }
+
+      &--spiderman {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-spm-primary, 0.5),
+          rgba($color-spm-tertiary, 0.5)
+        );
+      }
+
+      &--joker {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-joker-primary, 0.5),
+          rgba($color-joker-secondary, 0.5)
+        );
+      }
+
+      &--flash {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba($color-flash-primary, 0.5),
+          rgba($color-flash-secondary, 0.5)
+        );
+      }
+    }
+
+    &--header {
+      color: $color-text-light;
+      font-size: 2.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: absolute;
+      right: 5rem;
+      text-align: right;
+      top: 12rem;
+      width: 50%;
+    }
+
+    &--title {
+      margin-top: 2rem;
+      font-size: $large-font;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &--text {
+      line-height: 2rem;
+      margin: 2rem 0 3rem 0;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &:hover &__content--front {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover &__content--back {
+    transform: rotateY(0);
+  }
+}
+
+// BACK CARD STYLES
+.quotes {
+  width: 75%;
+  padding: 0 2rem;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card-box {
+    &:not(:last-child) {
+      margin: 0 0 2rem 0;
+    }
+  }
+}
