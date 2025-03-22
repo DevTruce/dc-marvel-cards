@@ -57,8 +57,6 @@ Overall this was a fun project to work on and I just created it for fun.
 
 Email: [DevTruce@Outlook.com]()
 
-Discord: [xzypher.]()
-
 <!-- #### MARKDOWN LINKS & IMAGES #### -->
 
 <!-- ## GitHub ##-->
